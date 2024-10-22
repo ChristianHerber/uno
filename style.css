@@ -19,7 +19,6 @@ html {
     justify-content: center;
 }
 .uno__card {
-    /* background: #DA3C24; */
     width: 250px;
     height: 450px;
     border-radius: 15px;
@@ -67,6 +66,9 @@ html {
 .uno__number {
     font-size: 32px;
 }
+.uno__number--top, .uno__number--bottom {
+    font-size: 20px;
+}
 .uno__number--middle {
     font-size: 175px;
     text-align: center;
@@ -76,5 +78,6 @@ html {
     transform: rotate(180deg);
 }
 .uno__author {
-    color: #fff;
+    color: #ccc;
+    margin-top: 30px;
 }

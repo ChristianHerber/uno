@@ -75,3 +75,6 @@ html {
     text-align: left;
     transform: rotate(180deg);
 }
+.uno__author {
+    color: #fff;
+}

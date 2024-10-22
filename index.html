@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
@@ -44,48 +44,8 @@
         </div>
     </div>
 
-
-    <script>
-        let unoCard = document.querySelector('.uno__card')
-
-        const colorRed = document.querySelector('.uno__color--red')
-        const colorBlue = document.querySelector('.uno__color--blue')
-        const colorYellow = document.querySelector('.uno__color--yellow')
-        const colorGreen = document.querySelector('.uno__color--green')
-
-        let unoNumber = document.querySelectorAll('.uno__number')
-        let unoCardNumberTop = document.querySelector('.uno__number--top')
-        let unoCardNumberMiddle = document.querySelector('.uno__number--middle')
-        let unoCardNumberBottom = document.querySelector('.uno__number--bottom')
-
-        colorRed.addEventListener('click', (e) => {
-            unoCard.style.background = '#DA3C24'
-        })
-
-        colorBlue.addEventListener('click', (e) => {
-            unoCard.style.background = '#0176BA'
-        })
-
-        colorYellow.addEventListener('click', (e) => {
-            unoCard.style.background = '#FFD534'
-        })
-
-        colorGreen.addEventListener('click', (e) => {
-            unoCard.style.background = '#84C03F'
-        })
-
-        unoNumber.forEach((number) => {
-            number.addEventListener('click', function() {
-                unoCardNumberTop.textContent = number.textContent
-                unoCardNumberMiddle.textContent = number.textContent
-                unoCardNumberBottom.textContent = number.textContent
-                
-            })
-        })
-
-
-    </script>
-
-
 </body>
+
+    <script src="./scripts.js"></script>
+
 </html>
